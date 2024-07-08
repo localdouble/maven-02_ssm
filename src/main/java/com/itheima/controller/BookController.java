@@ -34,6 +34,7 @@ public class BookController {
     @GetMapping("/{id}")
     public Book getById(@PathVariable Integer id) {
         System.out.println("getbyId...."+id);
+        System.out.println("getbyId111111222...."+id);
         return bookService.getById(id);
     }
     @GetMapping
